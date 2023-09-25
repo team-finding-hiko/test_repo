@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:image/image.dart' as img;
 
+
 void main() {
   final inputFolder = Directory('/Users/ryofukahori/Desktop/test1');
   final outputFolder = Directory('/Users/ryofukahori/Desktop/test2');
