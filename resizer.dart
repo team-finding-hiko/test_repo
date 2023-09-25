@@ -1,10 +1,11 @@
 import 'dart:io';
 import 'package:image/image.dart' as img;
 
+const _rootDirectory = '/Users/ryofukahori/Desktop/';
 
 void main() {
-  final inputFolder = Directory('/Users/ryofukahori/Desktop/test1');
-  final outputFolder = Directory('/Users/ryofukahori/Desktop/test2');
+  final inputFolder = Directory('${_rootDirectory}test1');
+  final outputFolder = Directory('${_rootDirectory}test2');
 
   if (!outputFolder.existsSync()) {
     outputFolder.createSync(recursive: true);
